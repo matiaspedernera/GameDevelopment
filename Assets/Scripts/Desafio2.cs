@@ -14,15 +14,15 @@ public class Desafio2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Character.transform.localScale = scale;
-        HealCharacter(lifeHealed);
+        // Character.transform.localScale = scale;
+        // HealCharacter(lifeHealed);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
-        DamageCharacter(damageTaken);
+        // Move();
+        // DamageCharacter(damageTaken);
     }
 
     public void Move()
